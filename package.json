@@ -5,15 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "build": "parcel build src/main.js"
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [],
   "author": "Joshua Willing Halpern <josh@willingapps.com>",
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.1.1",
-    "jest": "^27.4.5",
-    "parcel": "^2.0.1"
+    "jest": "^27.4.5"
   }
 }
