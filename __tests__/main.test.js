@@ -14,3 +14,9 @@ describe('add', () => {
     expect(add(1, 1.5)).toBe(2.5);
   });
 });
+
+describe('a non-passing test', () => {
+  it('should fail', () => {
+    expect(1).toBe(2);
+  });
+});
